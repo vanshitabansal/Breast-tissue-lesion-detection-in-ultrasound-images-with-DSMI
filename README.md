@@ -7,6 +7,8 @@ other modalities. Human readers might overlook certain abnormal findings, and ex
 cancer detection is still time-consuming. So, to find breast lesions, we need an automated
 tool. Deep learning has also developed to the point that it can now be widely used for
 object detection and image classification.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
 In order to do this, we have come up with an architecture for detecting breast tumour
 lesions that is based on disease-specific meta information using Deep Learning. We have
 also done Preprocessing and Postprocessing to improve the model performance.
