@@ -29,7 +29,7 @@ significant impact on how an ultrasound image is diagnosed. Varying training and
 tical experiences among doctors can lead to different diagnoses. Therefore, deep learning
 techniques to develop an automated tool for breast cancer diagnosis is desirable.
 
-#Limitations
+# Limitations
 The current research on Breast Tissue Lesion Detection uses pretrained weights from
 Imagenet dataset. But the images in Imagenet dataset is very different than that of
 Ultrasound images. Therefore, we require a large medical dataset that could be replaced
