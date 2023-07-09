@@ -20,3 +20,22 @@ samples) to check the effect of not using Imagenet weights for pretraining purpo
 proposed architecture achieved 86.31% Benign accuracy, 85.71% Malignant accuracy and
 86.13% Combined accuracy. The Malignant accuracy has improved by 48% and Benign
 accuracy has improved by 37.14% as compared to BUSnet.
+
+# Challenges and motivation
+Ultrasound Imaging is a main modality for breast tumor lesion detection, but the
+intrinsic characteristics of US images such as speckle noise and acoustic shadow results
+in degradation of performance. Additionally, the technician’s level of expertise has a
+significant impact on how an ultrasound image is diagnosed. Varying training and prac-
+tical experiences among doctors can lead to different diagnoses. Therefore, deep learning
+techniques to develop an automated tool for breast cancer diagnosis is desirable.
+
+#Limitations
+The current research on Breast Tissue Lesion Detection uses pretrained weights from
+Imagenet dataset. But the images in Imagenet dataset is very different than that of
+Ultrasound images. Therefore, we require a large medical dataset that could be replaced
+with Imagenet.
+In detection of Breast Tumor using deep learning, latent information from images is not
+fully explored yet. Since, we are working in medical domain, hence, this information play
+crucial role in anomaly detection.
+
+
